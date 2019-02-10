@@ -20,3 +20,14 @@ C:\Users\samuk\Desktop\SCX\obj\Debug\netcoreapp2.0\SCX.AssemblyInfoInputs.cache
 C:\Users\samuk\Desktop\SCX\obj\Debug\netcoreapp2.0\SCX.AssemblyInfo.cs
 C:\Users\samuk\Desktop\SCX\obj\Debug\netcoreapp2.0\SCX.dll
 C:\Users\samuk\Desktop\SCX\obj\Debug\netcoreapp2.0\SCX.pdb
+C:\Users\samuk\Desktop\testetti\bin\Debug\netcoreapp2.0\SCX.deps.json
+C:\Users\samuk\Desktop\testetti\bin\Debug\netcoreapp2.0\SCX.runtimeconfig.json
+C:\Users\samuk\Desktop\testetti\bin\Debug\netcoreapp2.0\SCX.runtimeconfig.dev.json
+C:\Users\samuk\Desktop\testetti\bin\Debug\netcoreapp2.0\SCX.dll
+C:\Users\samuk\Desktop\testetti\bin\Debug\netcoreapp2.0\SCX.pdb
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.csprojAssemblyReference.cache
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.csproj.CoreCompileInputs.cache
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.AssemblyInfoInputs.cache
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.AssemblyInfo.cs
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.dll
+C:\Users\samuk\Desktop\testetti\obj\Debug\netcoreapp2.0\SCX.pdb

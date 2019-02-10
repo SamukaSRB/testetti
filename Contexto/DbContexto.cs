@@ -8,10 +8,8 @@ namespace SCX.Contexto
         public DbContexto(DbContextOptions<DbContexto>options):base(options){
             Database.EnsureCreated();
         }
-
         public DbSet<Produto> Produtos{get;set;}
-        public DbSet<Categoria> Categorias{get;set;}
-        public DbSet<SubCategoria> SubCategorias{get;set;}
+     
         
     }
 }

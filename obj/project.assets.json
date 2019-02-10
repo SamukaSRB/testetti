@@ -12809,11 +12809,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\samuk\\Desktop\\SCX\\SCX.csproj",
+      "projectUniqueName": "C:\\Users\\samuk\\Desktop\\testetti\\SCX.csproj",
       "projectName": "SCX",
-      "projectPath": "C:\\Users\\samuk\\Desktop\\SCX\\SCX.csproj",
+      "projectPath": "C:\\Users\\samuk\\Desktop\\testetti\\SCX.csproj",
       "packagesPath": "C:\\Users\\samuk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\samuk\\Desktop\\SCX\\obj\\",
+      "outputPath": "C:\\Users\\samuk\\Desktop\\testetti\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

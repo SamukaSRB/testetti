@@ -10,15 +10,17 @@ namespace SCX.Models
             [Key]
             public  long  IdProduto{get;set;}
              [Required]
-            public  string NomeProduto{get;set;}
+            public  string Nome{get;set;}
              [Required]
-            public Categoria CategoriaProdutos{get;set;}
+            public string Descricao{get;set;}
              [Required]
-            public SubCategoria SubcategoriaProdutos{get;set;}
+            public string Categoria{get;set;}          
+             
+           
              [Required]
-            public double PrecoDVendasProdutos{get;set;}
-             [Required]
-            public string DescricaoProduto{get;set;}
+            
+            public double Preco{get;set;}           
 
         }
     }
+    

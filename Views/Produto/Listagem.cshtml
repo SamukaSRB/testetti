@@ -1,0 +1,43 @@
+@model IEnumerable<SCX.Models.Produto>;
+
+@{
+    ViewData["Title"] = "Listagem Produtos";
+}
+<button type="button" class="btnVoltar" id="btnVoltar"><a asp-action="Index" asp-controller="Home">Voltar</a></button>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<h1 class="jumbotron "> Listagem Produto <i class="far fa-edit"></i></h1>
+<br>
+<div class="container">  
+  <table class="table">
+  <tr>
+<th>
+@Html.DisplayNameFor(Model=> Model.Nome)
+</th>
+<th>
+@Html.DisplayNameFor(Model=> Model.Descricao)
+</th>
+<th>
+@Html.DisplayNameFor(Model=> Model.Categoria)
+</th>
+<th>
+@Html.DisplayNameFor(Model=> Model.Preco)
+</th>
+
+  </tr>
+    @foreach (var item in Model)
+    {
+    <tr class="tablegrid">
+        <td class="tbcolune">@Html.DisplayFor(Model => item.Nome)</td>
+        <td class="tbcolune">@Html.DisplayFor(Model => item.Descricao)</td>
+        <td class="tbcolune">@Html.DisplayFor(Model => item.Categoria)</td>
+        <td class="tbcolune" onkeyup="maskIt(this,event,'###.###.###,##',true,{pre:'R$'})">@Html.DisplayFor(Model => item.Preco)</td>
+        <td><button type="button" class="btn-default"><i class="far fa-lápis">@Html.ActionLink("Editar","Edit",new {id=item.IdProduto})</i></button></td>
+        <td><button type="button" class="btn-default"><i class="fa fa-trash">@Html.ActionLink("Deletar","Delete",new {id=item.IdProduto})</i></button></td>
+    </tr>
+    }    
+  </table> 
+</div>
+
+
+
+

@@ -1,15 +1,11 @@
 <button type="button" class="btnVoltar" id="btnVoltar"><a asp-action="Index" asp-controller="Home">Voltar</a></button>
 <div>
-  <form action="/action_page.php">
+  <form asp-action="Produto">
    
-    <input type="text" id="pnome" name="name" placeholder="Nome">
-    <input type="text" id="pcategoria" name="name" placeholder="Categoria">  
-    <input type="text" id="psubcategoria" name="name" placeholder="SubCategoria ">   
-    <input type="text" id="pprecodevenda" name="name" placeholder="Preco">
-    <input type="text" id="pdescricao" name="name" placeholder="Descrição">
-    
-   <input type="text" id="pprecodevenda" name="name" placeholder="Preço">
- 
+    <input type="text" id="pnome" name="Nome" placeholder="Nome"> 
+      <input type="text" id="pdescricao" name="Descricao" placeholder="Descrição">  
+    <input type= "text" id="pcategoria"   name= "Categoria" placeholder="Categoria">
+    <input type="text" id="pprecodevenda" name="Preco" placeholder="Preco" onkeyup="maskIt(this,event,'###.###.###,##',true,{pre:'R$'})" placeholder="Preco">
     <input  type="submit" value="Salvar">
     </form>
 </div>

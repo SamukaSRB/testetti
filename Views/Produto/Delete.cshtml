@@ -1,0 +1,23 @@
+@model SCX.Models.Produto;
+<button type="button" class="btnVoltar" id="btnVoltar"><a asp-action="Index" asp-controller="Home">Voltar</a></button>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<h1 class="jumbotron "> Exclusão de Produto <i class="far fa-edit"></i></h1>
+<br>
+
+
+
+
+<form asp-action="Delete" asp-controller="Produto">
+   <dl class="dl-horizontal">
+        <dt>Nome</dt>
+        <dd >@Html.DisplayFor(Model =>Model.Nome)</dd>
+           <dt>Descrição</dt>
+          <dd >@Html.DisplayFor(Model =>Model.Descricao)</dd>
+             <dt>Categoria</dt>
+            <dd >@Html.DisplayFor(Model =>Model.Categoria)</dd>
+               <dt>Preço</dt>
+              <dd >@Html.DisplayFor(Model =>Model.Preco)</dd>
+  </dl> <br>
+  <input  type="submit" class="btn btn-warning" id="delBtn" value="Excluir">
+</form>
+ 
